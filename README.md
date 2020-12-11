@@ -30,7 +30,11 @@ ________________________________________________
 ## 0. Git Basics
 
 - [x] Finish the course [Version Control with Git](https://www.udacity.com/course/version-control-with-git--ud123)
-All the commands from the Git course on the Udacity platform were new for me. Here they are:
+
+I have also created the 'Version Control with Git [Udacity] set of flashcards on [memecode](https://www.memcode.com/users/1823) to better memorize all of these GIT commands.
+
+Unfortunetely, the flashcards make me memorizie the commands in the *command -> definition* manner. Now and then, I need to revise them in the *command <- definition* manner, which is why I've put the list of all the commands but without definitions right below:
+
 - **git pull --rebase**
 - **git push**
 - **git pull**
@@ -91,8 +95,6 @@ Wildcars:
 - **git config --global merge.conflictstyle diff3**
 
 It seems like all the aforementioned commands are very basic and useful, so I'm gonna use all of them where needed.
-
-I have also created the 'Version Control with Git [Udacity] set of flashcards on [memecode](https://www.memcode.com/users/1823) to better memorize all of these GIT commands.
 
 
 
