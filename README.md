@@ -5,25 +5,25 @@
 ## Stage 0. Self-Study
 
 ### General
-- [ ] [Git Basics](https://github.com/kottans/frontend/blob/master/tasks/git-intro.md)
-- [ ] [Linux CLI and Networking](https://github.com/kottans/frontend/blob/master/tasks/linux-cli-http.md)
-- [ ] [VCS (hello gitty), GitHub and Collaboration](https://github.com/kottans/frontend/blob/master/tasks/git-collaboration.md)
+- [ ] 0. [Git Basics](https://github.com/kottans/frontend/blob/master/tasks/git-intro.md)
+- [ ] 1. [Linux CLI and Networking](https://github.com/kottans/frontend/blob/master/tasks/linux-cli-http.md)
+- [ ] 2. [VCS (hello gitty), GitHub and Collaboration](https://github.com/kottans/frontend/blob/master/tasks/git-collaboration.md)
 
 ### Front-End Basics
-- [ ] [Intro to HTML & CSS](https://github.com/kottans/frontend/blob/master/tasks/html-css-intro.md)
-- [ ] [Responsive Web Design](https://github.com/kottans/frontend/blob/master/tasks/html-css-responsive.md)
-- [ ] [HTML & CSS Practice](https://github.com/kottans/frontend/blob/master/tasks/html-css-popup.md)
-- [ ] [JavaScript Basics](https://github.com/kottans/frontend/blob/master/tasks/js-basics.md)
-- [ ] [Document Object Model](https://github.com/kottans/frontend/blob/master/tasks/js-dom.md) - practice
+- [ ] 3. [Intro to HTML & CSS](https://github.com/kottans/frontend/blob/master/tasks/html-css-intro.md)
+- [ ] 4. [Responsive Web Design](https://github.com/kottans/frontend/blob/master/tasks/html-css-responsive.md)
+- [ ] 5. [HTML & CSS Practice](https://github.com/kottans/frontend/blob/master/tasks/html-css-popup.md)
+- [ ] 6. [JavaScript Basics](https://github.com/kottans/frontend/blob/master/tasks/js-basics.md)
+- [ ] 7. [Document Object Model](https://github.com/kottans/frontend/blob/master/tasks/js-dom.md) - practice
 
 ### Advanced Topics
-- [ ] [Building a Tiny JS World (pre-OOP)](https://github.com/kottans/frontend/blob/master/tasks/js-pre-oop.md) - practice
-- [ ] [Object oriented JS](https://github.com/kottans/frontend/blob/master/tasks/js-oop.md) - practice
-- [ ] [OOP exercise](https://github.com/kottans/frontend/blob/master/tasks/js-post-oop.md) - practice
-- [ ] [Offline Web Applications](https://github.com/kottans/frontend/blob/master/tasks/app-design-offline.md)
-- [ ] [Memory pair game](https://github.com/kottans/frontend/blob/master/tasks/memory-pair-game.md) — real project!
-- [ ] [Website Performance Optimization](https://github.com/kottans/frontend/blob/master/tasks/app-design-performance.md)
-- [ ] [Friends App](https://github.com/kottans/frontend/blob/master/tasks/friends-app.md) - real project!
+- [ ] 8. [Building a Tiny JS World (pre-OOP)](https://github.com/kottans/frontend/blob/master/tasks/js-pre-oop.md) - practice
+- [ ] 9. [Object oriented JS](https://github.com/kottans/frontend/blob/master/tasks/js-oop.md) - practice
+- [ ] 10. [OOP exercise](https://github.com/kottans/frontend/blob/master/tasks/js-post-oop.md) - practice
+- [ ] 11. [Offline Web Applications](https://github.com/kottans/frontend/blob/master/tasks/app-design-offline.md)
+- [ ] 12. [Memory pair game](https://github.com/kottans/frontend/blob/master/tasks/memory-pair-game.md) — real project!
+- [ ] 13. [Website Performance Optimization](https://github.com/kottans/frontend/blob/master/tasks/app-design-performance.md)
+- [ ] 14. [Friends App](https://github.com/kottans/frontend/blob/master/tasks/friends-app.md) - real project!
 ________________________________________________
 
 
@@ -31,42 +31,42 @@ ________________________________________________
 
 - [x] Finish the course [Version Control with Git](https://www.udacity.com/course/version-control-with-git--ud123)
 
-I have created the 'Version Control with Git [Udacity] set of flashcards on [memecode](https://www.memcode.com/users/1823) to better memorize all of these GIT commands.
+I have created the 'Version Control with Git [Udacity] set of flashcards on [memecode](https://www.memcode.com/users/1823) to better memorize all of these GIT commands. I'm going to add more commands to the flashcards as I learn new ones elsewhere.
 
 Unfortunetely, the flashcards make me memorizie the commands in the *command -> definition* manner. Now and then, I need to revise them in the *command <- definition* manner, which is why I've put the list of all the commands but without definitions right below:
 
-- `git pull --rebase`
-- `git push`
-- `git pull`
-- `git fetch`
-- `git rebase x`
-- `git reset --hard HEAD^`
-- `git reset HEADx`
-- `git reset --soft HEAD^`
-- `git reset --mixed HEAD^`
-- `git reflog`
-- `git show HEAD^^^2` or `HEAD~2^2`
-- `git show HEAD^^` or `HEAD~2`
-- `git show HEAD^^^` or `HEAD~3`
-- `git show SHA^2`, where SHA is the SHA of a merge commit
-- `git show HEAD^` or `HEAD~` or `HEAD~1`
-- `git revert x`, where x is the SHA of commit to revert
-- `git commit --amend`
-- `git merge x`, where x is the name of the branch to be merged into the branch that's currently checked out
-- `git reset --hard HEAD^`
-- `git log --oneline --graph --all`
-- `git checkout -b x y`, where x is the name of the newly-created branch, y is the branch name (the most recent commit in that branch) or a commit's SHA which the newly-created brach will stem from
-- `git branch -D x`, where x is the name of the branch, and the flag MUST be CAPITALIZED
-- `git branch -d x`, where x is the name of the branch
-- `git checkout x`, where x is is the name of the brance
-- `git branch x`
-- `git branch`
-- `git commit -m "x"`, where x is used as the commit message. Be aware that you can't provide a description for the commit, only the message part
-- `git tag -d x`, where x is the name of the tag
-- `git tag`
-- `git tag -a x`, where x is the name of the tag. If you don't provide the flag, then it'll create what's called lightweight tag.
+1. `git pull --rebase`
+2. `git push`
+3. `git pull`
+4. `git fetch`
+5. `git rebase x`
+6. `git reset --hard HEAD^`
+7. `git reset HEADx`
+8. `git reset --soft HEAD^`
+9. `git reset --mixed HEAD^`
+10. `git reflog`
+11. `git show HEAD^^^2` or `HEAD~2^2`
+12. `git show HEAD^^` or `HEAD~2`
+13. `git show HEAD^^^` or `HEAD~3`
+14. `git show SHA^2`, where SHA is the SHA of a merge commit
+15. `git show HEAD^` or `HEAD~` or `HEAD~1`
+16. `git revert x`, where x is the SHA of commit to revert
+17. `git commit --amend`
+18. `git merge x`, where x is the name of the branch to be merged into the branch that's currently checked out
+19. `git reset --hard HEAD^`
+20. `git log --oneline --graph --all`
+21. `git checkout -b x y`, where x is the name of the newly-created branch, y is the branch name (the most recent commit in that branch) or a commit's SHA which the newly-created brach will stem from
+22. `git branch -D x`, where x is the name of the branch, and the flag MUST be CAPITALIZED
+23. `git branch -d x`, where x is the name of the branch
+24. `git checkout x`, where x is is the name of the brance
+25. `git branch x`
+26. `git branch`
+27. `git commit -m "x"`, where x is used as the commit message. Be aware that you can't provide a description for the commit, only the message part
+28. `git tag -d x`, where x is the name of the tag
+29. `git tag`
+30. `git tag -a x`, where x is the name of the tag. If you don't provide the flag, then it'll create what's called lightweight tag.
 
-Wildcars:
+**Wildcards:**
 - `**`
 - `[a-z]`
 - `[abc]`
@@ -75,24 +75,24 @@ Wildcars:
 
 .gitignore
 
-- `git diff`
-- `git rm --cached x`, where x is the name of the file
-- `git add .` (in a regular way it would be used as `git add x x ... xN`, where x, xN are the names of the files
-- `git config --global user.name "x"`, where x is Your-Full-Name
-- `git config --global user.email "x"`, where x is Your-Email
-- `git show x`, where x is first 7 chars of the commit's SHA:
-  - `--stat`
-  - `-p` or `--patch`
-  - `-w`
-- `git log -p` (or `--patch`)
-- `git log --stat`
-- `git log` (to leave Less text editor, use **q**)
-- `git status`
-- `git clone https://...` (optionally, u could add the folder name after the url, to clone the repository into that folder, e.g. use another name of the repository locally)
-- `git init`
-- `git config --list`
-- `git config --global core.editor "code --wait"`
-- `git config --global merge.conflictstyle diff3`
+31. `git diff`
+32. `git rm --cached x`, where x is the name of the file
+33. `git add .` (in a regular way it would be used as `git add x x ... xN`, where x, xN are the names of the files
+34. `git config --global user.name "x"`, where x is Your-Full-Name
+35. `git config --global user.email "x"`, where x is Your-Email
+36. `git show x`, where x is first 7 chars of the commit's SHA:
+    - `--stat`
+    - `-p` or `--patch`
+    - `-w`
+37. `git log -p` (or `--patch`)
+38. `git log --stat`
+39. `git log` (to leave Less text editor, use **q**)
+40. `git status`
+41. `git clone https://...` (optionally, u could add the folder name after the url, to clone the repository into that folder, e.g. use another name of the repository locally)
+42. `git init`
+43. `git config --list`
+44. `git config --global core.editor "code --wait"`
+45. `git config --global merge.conflictstyle diff3`
 
 It seems like all the aforementioned commands are very basic and useful, so I'm gonna use all of them where needed.
 
@@ -135,13 +135,13 @@ I have created the 'MARKDOWN [GIT] set of flashcards on [memecode](https://www.m
 
 Unfortunetely, the flashcards make me memorizie the commands in the *command -> definition* manner. Now and then, I need to revise them in the *command <- definition* manner, which is why I've put the list of all the commands but without definitions right below:
 
-- `-`
+- `-` or `*`
 
 - `- [ ] x`
 
 - `- [x] x`
 
-- `[title](url)`
+- `[title](url)` - use the keyboard shortcut **command + k** to create a link
 
 - `# header 1` ... `###### header 6`
 
@@ -166,7 +166,6 @@ Unfortunetely, the flashcards make me memorizie the commands in the *command -> 
 - [x] [TypingClub](https://www.typingclub.com/) — improve your typing speed – I had had this skill at this popint.
 
 - [x] [Как учиться и справляться с негативными мыслями](https://guides.hexlet.io/learning/) – I have started writing this README.md to track my progress making notes of my troubles and successes. It's my diary now so to speak :)
-
 
 
 
