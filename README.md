@@ -92,7 +92,7 @@ Wildcars:
 
 It seems like all the aforementioned commands are very basic and useful, so I'm gonna use all of them where needed.
 
-Also, I have created a number of flashcards on [memecode](https://www.memcode.com/courses/3389) to better memorize these commands.
+I have also created the 'Version Control with Git [Udacity] set of flashcards on [memecode](https://www.memcode.com/users/1823) to better memorize all of these GIT commands.
 
 
 
@@ -119,7 +119,7 @@ Here is what I understand from [the task given](https://github.com/kottans/front
 
 - [ ] [Git за 30 хвилин](https://codeguida.com/post/453)
 
-- [ ] [Git tips](http://sixrevisions.com/web-development/git-tips/) — consolidate your knowledge of Git
+- [x] [Git tips](http://sixrevisions.com/web-development/git-tips/) — consolidate your knowledge of Git
 
 This article is emptly :(
 
