@@ -31,8 +31,11 @@ ________________________________________________
 
 I have created the 'Version Control with Git [Udacity] set of flashcards on [memecode](https://www.memcode.com/users/1823) to better memorize all of these GIT commands. I'm going to add more commands to the flashcards as I learn new ones elsewhere.
 
-Unfortunetely, the flashcards make me memorizie the commands in the *command -> definition* manner. Now and then, I need to revise them in the *command <- definition* manner, which is why I've put the list of all the commands but without definitions right below:
+Unfortunetely, the flashcards make me memorizie the commands in the *command -> definition* manner. Now and then, I need to revise them in the *command <- definition* manner or just have sth for a quick reference, which is why I've put the list of all the commands in the table below:
 
+<details>
+  <summary>Click to expand</summary>
+  
 |#|Git command|Explanation
 |---|:---|---
 |1.| `git pull --rebase` |Ensures that changes made to the local repo are put on top of the changes made in the remote (коротка форма для `git fetch` а потім `git rebase`)
@@ -90,6 +93,7 @@ Unfortunetely, the flashcards make me memorizie the commands in the *command -> 
 |43.| `git config --list`|
 |44.| `git config --global core.editor "code --wait"`|
 |45.| `git config --global merge.conflictstyle diff3`|
+</details>
 
 It seems like all the aforementioned commands are very basic and useful, so I'm gonna use all of them where needed.
 
@@ -112,7 +116,11 @@ Despite the fact that I somehow managed to solve the 8th task (Remote: Push & Pu
 
 Here is what I understand from [the task given](https://github.com/kottans/frontend/blob/master/tasks/git-intro.md), i.e. what I understand at How to make a pull-request:
 
+<details>
+  <summary>Click to see the pic</summary>
+  
 ![how to make a pull-request](https://clip2net.com/clip/m0/33c0a-clip-191kb.jpg?nocache=1)
+</details>
 
 ## Extra Materials
 
@@ -130,13 +138,16 @@ This article is emptly :(
 
 I have created the 'MARKDOWN [GIT] set of flashcards on [memecode](https://www.memcode.com/users/1823) to better memorize Markdown syntax.
 
-Unfortunetely, the flashcards make me memorizie the commands in the *command -> definition* manner. Now and then, I need to revise them in the *command <- definition* manner, which is why I've put the list of all the commands but without definitions right below:
+Unfortunetely, the flashcards make me memorize the commands in the *command -> definition* manner. Now and then, I need to revise them in the *command <- definition* manner or just have a quick reference, which is why I've put the list of all the commands in the table below:
 
+<details>
+  <summary>Click to see the table</summary>
+  
 |#|Piece of Syntax|Description
 |---|---|---:
 |1.| `-` or `*`| Creates an unordered list
-|2.| `- [ ] x`| - [ ] x
-|3.| `- [x] x`| - [x] x
+|2.| `- [ ] x`| Adds a checkbox
+|3.| `- [x] x`| Adds a ticked checkbox
 |4.| `[title](url)`| Creates a link (TIP: use the keyboard shortcut **command + k** to create a link
 |5.| `# header 1` ... `###### header 6`| Header 1 is the largest, while header 6 is the smallest
 |6.| `![title](url)`| Adds an image
@@ -145,7 +156,7 @@ Unfortunetely, the flashcards make me memorizie the commands in the *command -> 
 |9.| `~~ABC~~`| Strikethrough x (закреслений)
 |10.| `**aaa _aaa_ aaa**`| **aaa _aaa_ aaa**
 |11.| `***aaa aaa aaa***`| ***aaa aaa aaa***
-|12.|  `> x`| > x
+|12.|  `> x`| Adds quotation
 |13.| `@perseon`, where *person* is a person's username or team name| Mentions a person or a team; autocomplete results are restricted to repository collaborators and any other participants on the thread
 |14.| `@organisation/team` | Subscribes all members of the team to the conversation
 |15.| `#`| Brings up a list of suggested issues and pull requests within the repository
@@ -154,7 +165,8 @@ Unfortunetely, the flashcards make me memorizie the commands in the *command -> 
 |18.| `\|`| Separates each column of the table
 |19.| `:---`, `:---:`, `---:`| Aligns text to the left, center, and to the right, respectively
 |20.| `\```xxx *code* ```/`| Adds an optional language identifier to enable syntax highlighting in your fenced code block. Use `HTML`, `CSS`, or `JavaScript` instead of `xxx`. Other identifiers for more languages you can find [here](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml). Don't pay your attention to the `\/`, they are not needed in the real syntax.
-
+|21.| `<details><summary>message</summary> content</details>`| Adds a collapsible section containing sth. NB: Make sure you have an empty line after the closing `</summary>` tag, otherwise the markdown/code blocks won't show correctly. NB: Make sure you have an empty line after the closing `</details>` tag if you have multiple collapsible sections.
+</details>
 
 - [x] [Learn anything front-end](https://learn-anything.xyz/web-development/front-end) – I can see that this is a beautiful resource – I've added it to my bookmarks.
 
