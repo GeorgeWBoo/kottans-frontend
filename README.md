@@ -132,23 +132,28 @@ I have created the 'MARKDOWN [GIT] set of flashcards on [memecode](https://www.m
 
 Unfortunetely, the flashcards make me memorizie the commands in the *command -> definition* manner. Now and then, I need to revise them in the *command <- definition* manner, which is why I've put the list of all the commands but without definitions right below:
 
-1. `-` or `*`
-2. `- [ ] x`
-3. `- [x] x`
-4. `[title](url)` - use the keyboard shortcut **command + k** to create a link
-5. `# header 1` ... `###### header 6`
-6. `![title](url)`
-7. `**x**`
-8. `*x*`
-9. `~~ABC~~`
-10. `**aaa _aaa_ aaa**`
-11. `***aaa aaa aaa***`
-12.  `> x`
-13. `@perseon`
-14. `@organisation/team`
-15. `#`
-16. `:` [emoji-cheat-sheet.com](https://www.webfx.com/tools/emoji-cheat-sheet/)
-
+|#|Piece of Syntax|Description
+|---|---|---:
+|1.| `-` or `*`| Creates an unordered list
+|2.| `- [ ] x`| - [ ] x
+|3.| `- [x] x`| - [x] x
+|4.| `[title](url)`| Creates a link (TIP: use the keyboard shortcut **command + k** to create a link
+|5.| `# header 1` ... `###### header 6`| Header 1 is the largest, while header 6 is the smallest
+|6.| `![title](url)`| Adds an image
+|7.| `**x**`| Bold **x**
+|8.| `*x*`| Italic *x*
+|9.| `~~ABC~~`| Strikethrough x (закреслений)
+|10.| `**aaa _aaa_ aaa**`| **aaa _aaa_ aaa**
+|11.| `***aaa aaa aaa***`| ***aaa aaa aaa***
+|12.|  `> x`| > x
+|13.| `@perseon`, where *person* is a person's username or team name| Mentions a person or a team; autocomplete results are restricted to repository collaborators and any other participants on the thread
+|14.| `@organisation/team` | Subscribes all members of the team to the conversation
+|15.| `#`| Brings up a list of suggested issues and pull requests within the repository
+|16.| `:`| Brings up a list of suggested emoji ([emoji-cheat-sheet.com](https://www.webfx.com/tools/emoji-cheat-sheet/))
+|17.| `---`| Creates each column's header of a table. **At least 3 hyphens must be used**
+|18.| `\|`| Separates each column of the table
+|19.| `:---`, `:---:`, `---:`| Aligns text to the left, center, and to the right, respectively
+|20.| `\```xxx *code* ```/`| Adds an optional language identifier to enable syntax highlighting in your fenced code block. Use `HTML`, `CSS`, or `JavaScript` instead of `xxx`. Other identifiers for more languages you can find [here](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml). Don't pay your attention to the `\/`, they are not needed in the real syntax.
 
 
 - [x] [Learn anything front-end](https://learn-anything.xyz/web-development/front-end) – I can see that this is a beautiful resource – I've added it to my bookmarks.
