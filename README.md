@@ -31,68 +31,68 @@ ________________________________________________
 
 - [x] Finish the course [Version Control with Git](https://www.udacity.com/course/version-control-with-git--ud123)
 
-I have also created the 'Version Control with Git [Udacity] set of flashcards on [memecode](https://www.memcode.com/users/1823) to better memorize all of these GIT commands.
+I have created the 'Version Control with Git [Udacity] set of flashcards on [memecode](https://www.memcode.com/users/1823) to better memorize all of these GIT commands.
 
 Unfortunetely, the flashcards make me memorizie the commands in the *command -> definition* manner. Now and then, I need to revise them in the *command <- definition* manner, which is why I've put the list of all the commands but without definitions right below:
 
-- **git pull --rebase**
-- **git push**
-- **git pull**
-- **git fetch**
-- **git rebase x**
-- **git reset --hard HEAD^**
-- **git reset HEADx**
-- **git reset --soft HEAD^**
-- **git reset --mixed HEAD^**
-- **git reflog**
-- **git show HEAD^^^2** or **HEAD~2^2**
-- **git show HEAD^^** or **HEAD~2**
-- **git show HEAD^^^** or **HEAD~3**
-- **git show SHA^2**, where SHA is the SHA of a merge commit
-- **git show HEAD^** or **HEAD~** or **HEAD~1**
-- **git revert x**, where x is the SHA of commit to revert
-- **git commit --amend**
-- **git merge x**, where x is the name of the branch to be merged into the branch that's currently checked out
-- **git reset --hard HEAD^**
-- **git log --oneline --graph --all**
-- **git checkout -b x y**, where x is the name of the newly-created branch, y is the branch name (the most recent commit in that branch) or a commit's SHA which the newly-created brach will stem from
-- **git branch -D x**, where x is the name of the branch, and the flag MUST be CAPITALIZED
-- **git branch -d x**, where x is the name of the branch
-- **git checkout x**, where x is is the name of the brance
-- **git branch x**
-- **git branch**
-- **git commit -m "x"**, where x is used as the commit message. Be aware that you can't provide a description for the commit, only the message part
-- **git tag -d x**, where x is the name of the tag
-- **git tag**
-- **git tag -a x**, where x is the name of the tag. If you don't provide the flag, then it'll create what's called lightweight tag.
+- `git pull --rebase`
+- `git push`
+- `git pull`
+- `git fetch`
+- `git rebase x`
+- `git reset --hard HEAD^`
+- `git reset HEADx`
+- `git reset --soft HEAD^`
+- `git reset --mixed HEAD^`
+- `git reflog`
+- `git show HEAD^^^2` or `HEAD~2^2`
+- `git show HEAD^^` or `HEAD~2`
+- `git show HEAD^^^` or `HEAD~3`
+- `git show SHA^2`, where SHA is the SHA of a merge commit
+- `git show HEAD^` or `HEAD~` or `HEAD~1`
+- `git revert x`, where x is the SHA of commit to revert
+- `git commit --amend`
+- `git merge x`, where x is the name of the branch to be merged into the branch that's currently checked out
+- `git reset --hard HEAD^`
+- `git log --oneline --graph --all`
+- `git checkout -b x y`, where x is the name of the newly-created branch, y is the branch name (the most recent commit in that branch) or a commit's SHA which the newly-created brach will stem from
+- `git branch -D x`, where x is the name of the branch, and the flag MUST be CAPITALIZED
+- `git branch -d x`, where x is the name of the branch
+- `git checkout x`, where x is is the name of the brance
+- `git branch x`
+- `git branch`
+- `git commit -m "x"`, where x is used as the commit message. Be aware that you can't provide a description for the commit, only the message part
+- `git tag -d x`, where x is the name of the tag
+- `git tag`
+- `git tag -a x`, where x is the name of the tag. If you don't provide the flag, then it'll create what's called lightweight tag.
 
 Wildcars:
-- **
-- [a-z]
-- [abc]
-- ?
-- samples/*.jpg
+- `**`
+- `[a-z]`
+- `[abc]`
+- `?`
+- `samples/*.jpg`
 
 .gitignore
 
-- **git diff**
-- **git rm --cached x**, where x is the name of the file
-- **git add .** (in a regular way it would be used as **git add x x ... xN**, where x, xN are the names of the files
-- **git config --global user.name "x"**, where x is Your-Full-Name
-- **git config --global user.email "x"**, where x is Your-Email
-- **git show x**, where x is first 7 chars of the commit's SHA:
-  - --stat
-  - -p or --patch
-  - -w
-- **git log -p** (or **--patch**)
-- **git log --stat**
-- **git log** (to leave Less text editor, use **q**)
-- **git status**
-- **git clone https://...** (optionally, u could add the folder name after the url, to clone the repository into that folder, e.g. use another name of the repository locally)
-- **git init**
-- **git config --list**
-- **git config --global core.editor "code --wait"**
-- **git config --global merge.conflictstyle diff3**
+- `git diff`
+- `git rm --cached x`, where x is the name of the file
+- `git add .` (in a regular way it would be used as `git add x x ... xN`, where x, xN are the names of the files
+- `git config --global user.name "x"`, where x is Your-Full-Name
+- `git config --global user.email "x"`, where x is Your-Email
+- `git show x`, where x is first 7 chars of the commit's SHA:
+  - `--stat`
+  - `-p` or `--patch`
+  - `-w`
+- `git log -p` (or `--patch`)
+- `git log --stat`
+- `git log` (to leave Less text editor, use **q**)
+- `git status`
+- `git clone https://...` (optionally, u could add the folder name after the url, to clone the repository into that folder, e.g. use another name of the repository locally)
+- `git init`
+- `git config --list`
+- `git config --global core.editor "code --wait"`
+- `git config --global merge.conflictstyle diff3`
 
 It seems like all the aforementioned commands are very basic and useful, so I'm gonna use all of them where needed.
 
@@ -130,6 +130,36 @@ This article is emptly :(
 - [ ] [Resoilving a Merge Conflict](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/resolving-a-merge-conflict-using-the-command-line)
 
 - [ ] [Communicating using Markdown](https://lab.github.com/githubtraining/communicating-using-markdown)
+
+I have created the 'MARKDOWN [GIT] set of flashcards on [memecode](https://www.memcode.com/users/1823) to better memorize Markdown syntax.
+
+Unfortunetely, the flashcards make me memorizie the commands in the *command -> definition* manner. Now and then, I need to revise them in the *command <- definition* manner, which is why I've put the list of all the commands but without definitions right below:
+
+- `-`
+
+- `- [ ] x`
+
+- `- [x] x`
+
+- `[title](url)`
+
+- `# header 1` ... `###### header 6`
+
+- `![title](url)`
+
+- `**x**`
+
+- `*x*`
+
+- `~~ABC~~`
+
+- `**aaa _aaa_ aaa**`
+
+- `***aaa aaa aaa***`
+
+- `> x`
+
+
 
 - [x] [Learn anything front-end](https://learn-anything.xyz/web-development/front-end) – I can see that this is a beautiful resource – I've added it to my bookmarks.
 
