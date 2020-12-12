@@ -29,9 +29,9 @@ ________________________________________________
 
 - [x] Finish the course [Version Control with Git](https://www.udacity.com/course/version-control-with-git--ud123)
 
-I have created the 'Version Control with Git [Udacity] set of flashcards on [memecode](https://www.memcode.com/users/1823) to better memorize all of these GIT commands. I'm going to add more commands to the flashcards as I learn new ones elsewhere.
+  I have created the 'Version Control with Git [Udacity] set of flashcards on [memecode](https://www.memcode.com/users/1823) to better memorize all of these GIT commands. I'm going to add more commands to the flashcards as I learn new ones elsewhere.
 
-Unfortunetely, the flashcards make me memorizie the commands in the *command -> definition* manner. Now and then, I need to revise them in the *command <- definition* manner or just have sth for a quick reference, which is why I've put the list of all the commands in the table below:
+  Unfortunetely, the flashcards make me memorizie the commands in the *command -> definition* manner. Now and then, I need to revise them in the *command <- definition* manner or just have sth for a quick reference, which is why I've put the list of all the commands in the table below:
 
 <details>
   <summary>Click to expand</summary>
@@ -93,17 +93,17 @@ Unfortunetely, the flashcards make me memorizie the commands in the *command -> 
 |43.| `git config --list`|
 |44.| `git config --global core.editor "code --wait"`|
 |45.| `git config --global merge.conflictstyle diff3`|
-</details>
+  </details>
 
-It seems like all the aforementioned commands are very basic and useful, so I'm gonna use all of them where needed.
+  It seems like all the aforementioned commands are very basic and useful, so I'm gonna use all of them where needed.
 
 
 
 - [x] Complete the Main: Introduction Sequence and Remote: Push & Pull -- Git Remotes
 
-Many commands weren't new for me since I had already learnt most of them in the Git course from Udacity. Nevertheless, all new commands I have included into the list above and to flashcards as well.
+  Many commands weren't new for me since I had already learnt most of them in the Git course from Udacity. Nevertheless, all new commands I have included into the list above and to flashcards as well.
 
-Despite the fact that I somehow managed to solve the 8th task (Remote: Push & Pull -- Git Remotes), I couldn't understand it at first. However, having tried to solve the practical task of this section, Git basics, now I understand how to apply this knowlege (keep reading further to see what a beatiful pic I managed to create while trying to understand this topic).
+  Despite the fact that I somehow managed to solve the 8th task (Remote: Push & Pull -- Git Remotes), I couldn't understand it at first. However, having tried to solve the practical task of this section, Git basics, now I understand how to apply this knowlege (keep reading further to see what a beatiful pic I managed to create while trying to understand this topic).
 
 
 - [x] Create repository named kottans-frontend
@@ -114,7 +114,7 @@ Despite the fact that I somehow managed to solve the 8th task (Remote: Push & Pu
 
 - [ ] Send a pull-request to Kottans/mock-repo proposing a change.
 
-Here is what I understand from [the task given](https://github.com/kottans/frontend/blob/master/tasks/git-intro.md), i.e. what I understand at How to make a pull-request:
+  Here is what I understand from [the task given](https://github.com/kottans/frontend/blob/master/tasks/git-intro.md), i.e. what I understand at How to make a pull-request:
 
 <details>
   <summary>Click to see the pic</summary>
@@ -128,17 +128,21 @@ Here is what I understand from [the task given](https://github.com/kottans/front
 
 - [x] [Git tips](http://sixrevisions.com/web-development/git-tips/) — consolidate your knowledge of Git
 
-This article is emptly :(
+  This article is emptly :(
 
-- [ ] [About Merge Conflicts](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-merge-conflicts)
+- [x] [About Merge Conflicts](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-merge-conflicts)
 
-- [ ] [Resoilving a Merge Conflict](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/resolving-a-merge-conflict-using-the-command-line)
+  I got that it's possible to resolve merge conflicts both using the conflict editor on GitHub and using the command line. With former option, however, you can resolve merge conflicts only between branches in your Git repository, and these conflicts are only about competinig line changes. All the other conflicts can be resolved with the latter option.
+
+- [x] [Resoilving a Merge Conflict](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/resolving-a-merge-conflict-using-the-command-line)
+
+  I've learned a new git command: `git rm x`, where x is the name of the file to be removed from the repository.  This command comes in useful when resolving removed file merge conflicts.
 
 - [x] [Communicating using Markdown](https://lab.github.com/githubtraining/communicating-using-markdown)
 
-I have created the 'MARKDOWN [GIT] set of flashcards on [memecode](https://www.memcode.com/users/1823) to better memorize Markdown syntax.
+  I have created the 'MARKDOWN [GIT] set of flashcards on [memecode](https://www.memcode.com/users/1823) to better memorize Markdown syntax.
 
-Unfortunetely, the flashcards make me memorize the commands in the *command -> definition* manner. Now and then, I need to revise them in the *command <- definition* manner or just have a quick reference, which is why I've put the list of all the commands in the table below:
+  Unfortunetely, the flashcards make me memorize the commands in the *command -> definition* manner. Now and then, I need to revise them in the *command <- definition* manner or just have a quick reference, which is why I've put the list of all the commands in the table below:
 
 <details>
   <summary>Click to see the table</summary>
@@ -168,13 +172,19 @@ Unfortunetely, the flashcards make me memorize the commands in the *command -> d
 |21.| `<details><summary>message</summary> content</details>`| Adds a collapsible section containing sth. NB: Make sure you have an empty line after the closing `</summary>` tag, otherwise the markdown/code blocks won't show correctly. NB: Make sure you have an empty line after the closing `</details>` tag if you have multiple collapsible sections.
 </details>
 
-I also have learned how to make saved replies and gists.
+  I also have learned how to make saved replies and gists.
 
-- [x] [Learn anything front-end](https://learn-anything.xyz/web-development/front-end) – I can see that this is a beautiful resource – I've added it to my bookmarks.
+- [x] [Learn anything front-end](https://learn-anything.xyz/web-development/front-end)
 
-- [x] [TypingClub](https://www.typingclub.com/) — improve your typing speed – I had had this skill at this popint.
+  I can see that this is a beautiful resource – I've added it to my bookmarks.
 
-- [x] [Как учиться и справляться с негативными мыслями](https://guides.hexlet.io/learning/) – I have started writing this README.md to track my progress making notes of my troubles and successes. It's my diary now so to speak :)
+- [x] [TypingClub](https://www.typingclub.com/) — improve your typing speed
+
+  I had had this skill at this popint.
+
+- [x] [Как учиться и справляться с негативными мыслями](https://guides.hexlet.io/learning/)
+
+  I have started writing this README.md to track my progress making notes of my troubles and successes. It's my diary now so to speak :)
 
 
 
