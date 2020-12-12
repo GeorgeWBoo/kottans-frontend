@@ -134,7 +134,7 @@ This article is emptly :(
 
 - [ ] [Resoilving a Merge Conflict](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/resolving-a-merge-conflict-using-the-command-line)
 
-- [ ] [Communicating using Markdown](https://lab.github.com/githubtraining/communicating-using-markdown)
+- [x] [Communicating using Markdown](https://lab.github.com/githubtraining/communicating-using-markdown)
 
 I have created the 'MARKDOWN [GIT] set of flashcards on [memecode](https://www.memcode.com/users/1823) to better memorize Markdown syntax.
 
@@ -167,6 +167,8 @@ Unfortunetely, the flashcards make me memorize the commands in the *command -> d
 |20.| `\```xxx *code* ```/`| Adds an optional language identifier to enable syntax highlighting in your fenced code block. Use `HTML`, `CSS`, or `JavaScript` instead of `xxx`. Other identifiers for more languages you can find [here](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml). Don't pay your attention to the `\/`, they are not needed in the real syntax.
 |21.| `<details><summary>message</summary> content</details>`| Adds a collapsible section containing sth. NB: Make sure you have an empty line after the closing `</summary>` tag, otherwise the markdown/code blocks won't show correctly. NB: Make sure you have an empty line after the closing `</details>` tag if you have multiple collapsible sections.
 </details>
+
+I also have learned how to make saved replies and gists.
 
 - [x] [Learn anything front-end](https://learn-anything.xyz/web-development/front-end) – I can see that this is a beautiful resource – I've added it to my bookmarks.
 
