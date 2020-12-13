@@ -34,7 +34,7 @@ ________________________________________________
   Unfortunetely, the flashcards make me memorizie the commands in the *command -> definition* manner. Now and then, I need to revise them in the *command <- definition* manner or just have sth for a quick reference, which is why I've put the list of all the commands in the table below:
 
 <details>
-  <summary>Click to expand</summary>
+  <summary>Click to see the table</summary>
   
 |#|Git command|Explanation
 |---|:---|---
@@ -53,8 +53,8 @@ ________________________________________________
 |13.| `git show HEAD^^^` or `HEAD~3`|
 |14.| `git show SHA^2`, where SHA is the SHA of a merge commit|
 |15.| `git show HEAD^` or `HEAD~` or `HEAD~1`|
-|16.| `git revert x`, where x is the SHA of commit to revert|
-|17.| `git commit --amend`|
+|16.| `git commit --amend`| Додає все з **останнього** коміту в проміжну область для виправленого коміту. Якщо ви помітили, що ви зробили помилку у вашому коміт-повідомленні, або ви забули додати файл після того, як зробили коміт, ви можете легко виправити це за допомогою цієї команди.
+|17.| `git revert x`, where x is the SHA of commit to revert| Використовується для більш складних виправлень, які знаходяться **не в останньому коміті** (або якщо ви вже завантажили свої зміни через push). Це дасть змогу взяти всі зміни, які були у коміті, відмінити їх, і створити новий комміт. Коли ви повертаєтесь до старих комітів, майте на увазі, що виникає ризик отримати т.з. "конфлікти злиття". Це відбувається, коли файл змінюється через інший пізніший коміт, і тепер git не може знайти правильні рядки, до яких треба повернутися, так як їх там вже нема.
 |18.| `git merge x`, where x is the name of the branch to be merged into the branch that's currently checked out|
 |19.| `git reset --hard HEAD^`|
 |20.| `git log --oneline --graph --all`|
@@ -75,7 +75,7 @@ ________________________________________________
 ||- `?`|
 ||- `samples/*.jpg`|
 ||.gitignore|
-|31.| `git diff`|
+|31.| `git diff <sha 1> <sha 2>`| Compares any two commits you need
 |32.| `git rm --cached x`, where x is the name of the file|
 |33.| `git add .` (in a regular way it would be used as `git add x x ... xN`, where x, xN are the names of the files|
 |34.| `git config --global user.name "x"`, where x is Your-Full-Name|
@@ -124,8 +124,24 @@ ________________________________________________
 
 ## Extra Materials
 
-- [ ] [Git за 30 хвилин](https://codeguida.com/post/453)
+- [x] [Git за 30 хвилин](https://codeguida.com/post/453)
 
+  I have learned a few new git commands, namely:
+
+  <details>
+  <summary>Click to see the table</summary>
+
+  |#|Command|Description
+  |---|---|---:
+  |1.|`git remote add origin https://github.com/...`| Зв'язує наш локальний репозиторій з репозиторієм на GitHub і дає кличку origin останньому. Проект може мати безліч дистанційних репозиторіїв одночасно. Для того, щоб відрізнити їх один від одного ми даємо їм різні клички/назви. Традиційно основний дистанційний репозиторій в git називають *origin*.
+  |2.|`git pull x y`| Отримує зміни з сервера. x - назва/кличка дистанційного репо, y - назва гілки цього репозиторію, яку ми хочемо отримати
+  |3.| `git push x y`| Завантажує коміти на сервер. Приймає два параметри - назва/кличка дистанційного репо (у нашому випадку x) і гілка, на яку ми хочемо завантажити коміт (за замовчування для кожного репозиторія встановлена гілка master, але в нашому випадку y).
+  |4.| `git difftool <sha 1> <sha 2>`| графічний клієнт, що показує всі відмінності між двома заданими комітами
+  |5.| 'git checkout <sha>| Виявляється з допомогою цієї команди можна не тільки перемикатися між гілками, а щей й між комітами, тобто переміщуватсия в минуле :), а потім назад в майбутнє ))
+  |6.| `git mergetool`| Більшість розробників вважають, що краще вирішувати дані конфлікти за допомогою GUI клієнту. Щоб запустити графічний клієнт використовують цю команду. Проте в статті нічого про те, як її конфігуруфвати
+  
+  </details>
+  
 - [x] [Git tips](http://sixrevisions.com/web-development/git-tips/) — consolidate your knowledge of Git
 
   This article is emptly :(
